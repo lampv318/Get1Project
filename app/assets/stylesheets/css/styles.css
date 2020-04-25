@@ -17915,7 +17915,7 @@ ul.sub-menu li a:before {
 }
 
 .header-v6 {
-  background: #212121;
+  background: #808080;
 }
 
 .header-v6 .main-menu ul li.has-child .arrow:after {
@@ -17988,7 +17988,7 @@ ul.sub-menu li a:before {
 }
 
 .header-v6 .container1 {
-  border-top: 1px dashed #4d4d4d;
+  border-top: 1px dashed #d3c2c2;
 }
 
 .header-v6 .logo {
@@ -17999,7 +17999,7 @@ ul.sub-menu li a:before {
 }
 
 .header-v6 .topbar {
-  background: #212121;
+  background: #808080;
   color: #fff;
   padding: 10px 0;
 }
@@ -19542,7 +19542,7 @@ website:   	http://www.engocreative.com
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   font-weight: normal;
-  color: #212121;
+  color: #808080;
 }
 
 .footer-v1 .footer .head-footer h2.title:hover a:before, .footer-v2 .footer .head-footer h2.title:hover a:before, .footer-v3 .footer .head-footer h2.title:hover a:before {
@@ -19761,7 +19761,7 @@ website:   	http://www.engocreative.com
 .bottom-footer .footer-menu ul li a:after {
   display: block;
   width: 1px;
-  background: #212121;
+  background: #808080;
   height: 12px;
   content: '';
   float: right;
@@ -19805,7 +19805,7 @@ website:   	http://www.engocreative.com
 }
 
 .footer-v2 .main-footer, .footer-v3 .main-footer {
-  background: #212121;
+  background: #808080;
   border-bottom: 0 none;
 }
 
@@ -19906,7 +19906,7 @@ website:   	http://www.engocreative.com
 }
 
 .footer-v2 .bottom-footer, .footer-v3 .bottom-footer {
-  background: #212121;
+  background: #808080;
 }
 
 .footer-v2 .bottom-footer .footer-menu, .footer-v3 .bottom-footer .footer-menu {
