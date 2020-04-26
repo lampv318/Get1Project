@@ -21386,7 +21386,7 @@ ol.comment-list p,
   font-family: 'Montserrat';
   text-transform: uppercase;
   padding-top: 200px;
-  background: transparent url(../images/404.png) no-repeat scroll center top;
+  background: transparent url("https://res.cloudinary.com/dtbumlftx/image/upload/v1587870922/404_rjhqvy.png") no-repeat scroll center top;
   font-weight: bold;
   background-size: 410px 162px;
   padding-bottom: 15px;
