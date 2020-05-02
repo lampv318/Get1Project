@@ -15038,7 +15038,7 @@ website:   	http://www.engocreative.com
 
 /*5.13 Parallax*/
 .background-img-v4 {
-  background-image: url("../images/testimonial3.jpg") !important;
+  background-image: url("https://res.cloudinary.com/dtbumlftx/image/upload/v1588435537/testimonial3_uwcuhm.png") !important;
   z-index: 1;
 }
 
