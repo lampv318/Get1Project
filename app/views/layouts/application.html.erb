@@ -8,11 +8,11 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag "plugin/plugin.js" %>
+    <%= javascript_include_tag "revolution.js" %>
     <%= javascript_include_tag "nautica.js" %>
     <%= javascript_include_tag "plugin/wow.min.js" %>
     <%= javascript_include_tag "engo-apps" %>
     <%= javascript_include_tag "jquery.easyResponsiveTabs" %>
-    <%= javascript_include_tag "revolution.js" %>
     <%= javascript_include_tag "plugin/swiper.min.js" %>
   </head>
 
@@ -21,6 +21,8 @@
     <%= yield %>
     <%= render  "page/footer" %>
     <%= render  "layouts/popup" %>
+
+
   </body>
 
 </html>
