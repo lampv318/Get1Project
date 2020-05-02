@@ -1,2 +1,9 @@
 //= link_tree ../images
 //= link_directory ../stylesheets .css
+//= link plugin/plugin.js
+//= link nautica.js
+//= link plugin/wow.min.js
+//= link engo-apps
+//= link jquery.easyResponsiveTabs
+//= link revolution.js
+//= link plugin/swiper.min.js
