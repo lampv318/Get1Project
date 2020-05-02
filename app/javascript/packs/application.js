@@ -10,6 +10,17 @@ require("channels")
 
 require("jquery")
 
+
+
+require("/plugin/plugin.js")
+require("/nautica.js")
+require("/plugin/wow.min.js")
+require("/engo-apps.js")
+require("/jquery.easyResponsiveTabs")
+require("/revolution")
+require("/plugin/swiper.min.js")
+
+
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
 // or the `imagePath` JavaScript helper below.
