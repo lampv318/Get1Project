@@ -7,3 +7,4 @@
 //= link jquery.easyResponsiveTabs
 //= link revolution.js
 //= link plugin/swiper.min.js
+//= link owl.carousel-2.js

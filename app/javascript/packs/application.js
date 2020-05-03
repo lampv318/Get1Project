@@ -19,6 +19,7 @@ require("/engo-apps.js")
 require("/jquery.easyResponsiveTabs")
 require("/revolution")
 require("/plugin/swiper.min.js")
+require("/owl.carousel-2")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
