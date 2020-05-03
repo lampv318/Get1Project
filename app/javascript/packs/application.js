@@ -10,16 +10,23 @@ require("channels")
 
 require("jquery")
 
+// require("/plugin/plugin.js")
+// require("/nautica.js")
+// require("/plugin/wow.min.js")
+// require("/engo-apps.js")
+// require("/jquery.easyResponsiveTabs")
+// require("/revolution")
+// require("/plugin/swiper.min.js")
+// require("/owl.carousel-2")
+//= nautica.js
+//= plugin/plugin.js
+//= plugin/wow.min.js
+//= engo-apps.js
+//= jquery.easyResponsiveTabs
+//= revolution
+//= plugin/swiper.min.js
+//= owl.carousel-2
 
-
-require("/plugin/plugin.js")
-require("/nautica.js")
-require("/plugin/wow.min.js")
-require("/engo-apps.js")
-require("/jquery.easyResponsiveTabs")
-require("/revolution")
-require("/plugin/swiper.min.js")
-require("/owl.carousel-2")
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
