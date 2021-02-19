@@ -1,33 +1,256 @@
-<header class="header-v6">
+<header  class="site-header header-v1">
   <!-- topbar -->
   <div class="topbar">
-    <div class="container">					
-      <div class="row">
-        <div class="col-sm-6">
-          <!--  -->
-          <div class=" hidden-lg hidden-md  engo-mainmenu offcanvas-fixed">
-              <div class="btn-toggle-menu  btn-nav" data-toggle="offcanvas">
-                  <div class="one"></div>
-                  <div class="two"></div>
-                  <div class="three"></div>
-              </div>
-          </div>
-          <!--  -->
-          <!-- .logo -->
-          <div class="logo">
-            <a class="logo" title="Magento Commerce" href="#">
-              <img src="https://res.cloudinary.com/dtbumlftx/image/upload/c_scale,w_70/v1588520179/95334295_167755641261407_8535931833588645888_n_yniyaq.jpg" alt="">
-              <%#= image_pack_tag "logo/logo_6.svg"%>
-            </a>
-          </div>
-          <!-- end .logo -->
-        </div>
-          <%= render  "page/header/right_topbar" %>
+    <div class="container">
+      <div class="col-sm-6 col-30 left-topbar">
+        <!--  -->
+        <div class=" hidden-lg hidden-md  engo-mainmenu offcanvas-fixed">
+          <div class="btn-toggle-menu  btn-nav" data-toggle="offcanvas">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
           </div>
         </div>
+        <!--  -->
+        <form class="form-search" action="#">
+          <input class="input-search" placeholder="Search" type="text">
+          <div class="btn-search">
+            <input class="btn-search1" type="submit" value="Search">
+          </div>
+        </form>
       </div>
+      <!-- right topbar -->
+      <div class="col-sm-6 col-70 ">
+        <div class="mini-cart">
+          <a class="cart-control" href="#">
+            <img src="https://res.cloudinary.com/dtbumlftx/image/upload/v1613743040/base/addtocart_y21n1g.svg" alt="bag">
+            <span class="spa">-</span>
+            <span class="cart-number">3</span>
+          </a>
+          <!-- .cart-control -->
+          <div class="mini-cart-content">
+            <div class="fix-hover"></div>
+            <ul class="cart_list ">
+              <li class="item clearfix">
+                <a href="#" class="image pull-left">
+                  <img src="https://res.cloudinary.com/dtbumlftx/image/upload/v1613743127/base/mini-product1_ynafvz.png" alt="neon_legging_legx_2">
+                </a>
+                <div class="cart-main-content media-body">
+                  <h3 class="name">
+                    <a href="#">
+                      Zoronoa Zoro
+                    </a>
+                  </h3>
+                  <div class="cart-item">
+                    <div class="price">
+                      <span class="amount">$35.00</span>
+                      <del>$75.00</del>
+                    </div>
+                    <span class="qty">
+                                          QTY: 01
+                                       </span>
+                  </div>
+                  <a href="#" class="remove" title="Remove this item"><i class="fa  fa-times-circle"></i></a>
+                </div>
+              </li>
+            </ul>
+            <!-- end product list -->
+            <div class="total-minicart">
+              <p class="total"><strong>Subtotal:</strong> <span class="amount">$105.00</span></p>
+              <p class="buttons clearfix">
+                <a href="#" class="btn pull-left btn-minicart">View Cart</a>
+                <a href="#" class="btn btn-primary pull-right  checkout btn-minicart">Checkout</a>
+              </p>
+            </div>
+          </div>
+          <!-- .shop-item -->
+        </div>
+        <!-- .shop-cart -->
+        <div class="settings">
+          <div class="btn-settings dropdown">
+            <img src="https://res.cloudinary.com/dtbumlftx/image/upload/v1613743414/base/setting_tv3q0b.svg" alt="">
+          </div>
+          <!-- ul.toplinks -->
+          <div class="toplinks dropdown-content">
+            <div class="set lang clearfix">
+              <span class="title">Select Language</span>
+              <div class="langs clearfix">
+                <a href="#" class="active"><img src="images/assets/lang1.png" alt=""></a>
+                <a href="#"><img src="images/assets/lang2.png" alt=""></a>
+                <a href="#"><img src="images/assets/lang3.png" alt=""></a>
+                <a href="#"><img src="images/assets/lang4.png" alt=""></a>
+              </div>
+            </div>
+            <div class="set currency clearfix">
+              <span class="title">Select Currency</span>
+              <div class="curs">
+                <a href="#" class="active"><i class="fa fa-dollar"></i></a>
+                <a href="#"><i class="fa fa-eur"></i></a>
+                <a href="#"><i class="fa fa-yen"></i></a>
+              </div>
+            </div>
+            <div class="set links">
+              <div>
+                <i class="fa fa-unlock-alt"></i>
+                <span>Login / Register</span>
+              </div>
+              <div>
+                <i class="fa fa-user"></i>
+                <span>My Account</span>
+              </div>
+              <div>
+                <i class="fa fa-heart"></i>
+                <span>My Wishlist</span>
+              </div>
+              <div>
+                <i class="fa fa-check-circle"></i>
+                <span>Checkout</span>
+              </div>
+            </div>
+          </div>
+          <!-- end ul.toplinks -->
+        </div>
+        <!-- ul.toplinks -->
+        <ul class="toplinks hidden-xs ">
+          <li class="toplink">
+            <a href="#">Login</a>
+          </li>
+          <li class="toplink">
+            <div class="currency ">
+              <ul>
+                <li>
+                  <a class="dropdown" href="#">USD</a>
+                  <ul class="top-link-content dropdow-content">
+                    <li><a href="#"><del>USD</del> </a></li>
+                    <li><a href="#">EUR</a></li>
+                    <li><a href="#">GBP</a></li>
+                    <li><a href="#">JPY</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="toplink">
+            <div class="language">
+              <ul>
+                <li>
+                  <a class="dropdown" href="#">ENGLISH</a>
+                  <ul class="top-link-content dropdow-content">
+                    <li><a href="#"><del>English</del> </a></li>
+                    <li><a href="#">Vietnamese</a></li>
+                    <li><a href="#">Japan</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="toplink"><a href="#">Wishlist</a></li>
+        </ul>
+        <!-- end ul.toplinks -->
+      </div>
+      <!-- end right topbar -->
     </div>
   </div>
   <!-- end  topbar -->
-  <%= render  "page/header/header_main" %>
+  <!-- header content -->
+  <div class="header-main">
+    <div class="container">
+      <a class="logo" title="Magento Commerce" href="#">
+        <img src="https://res.cloudinary.com/dtbumlftx/image/upload/v1613741350/base/logo-v8_onrfqj.png" alt="logo">
+      </a>
+    </div>
+  </div>
+  <!-- end header content -->
+  <!-- main menu -->
+  <nav id="main-menu" class="main-menu">
+    <div class="container">
+      <ul class="main-nav clearfix">
+        <li>
+          <a href="#" title="">ONE PIE</a>
+        </li>
+        <li class="">
+          <a  href="#" title="">MARVEL</a>
+          <div class="sub-menu mega-menu">
+            <div class="mega-item">
+              <h3 class="menu-title">Đang cập nhật</h3>
+              <ul>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+            <div class="mega-item">
+              <h3 class="menu-title">Đang cập nhật</h3>
+              <ul>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+            <div class="mega-item">
+              <h3 class="menu-title">Đang cập nhật</h3>
+              <ul>
+                <li><a href="shop.html">Đang cập nhật</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+            <div class="mega-item image">
+              <img src="https://res.cloudinary.com/dtbumlftx/image/upload/v1613743648/base/mega-menu_rrfvwq.png" alt="">
+            </div>
+            <!-- .mega-item -->
+          </div>
+        </li>
+        <li>
+          <a href="#" title="">Đang cập nhật</a>
+        </li>
+        <li><a href="#" title="">Đang cập nhật</a></li>
+        <li>
+          <a href="#" title="">Đang cập nhật</a>
+          <div class="sub-menu mega-menu mega-menu-2">
+            <div class="mega-item">
+              <h3 class="menu-title">Homepages</h3>
+              <ul>
+                <li><a href="index.html">Home page style 1</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+            <div class="mega-item">
+              <h3 class="menu-title">Templates</h3>
+              <ul>
+                <li><a href="404.html"> Page not found</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+            <div class="mega-item">
+              <h3 class="menu-title">Shop teamplate</h3>
+              <ul>
+                <li><a href="shop-grid-full-screen.html">Shop grid full screen v1</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+            <div class="mega-item">
+              <h3 class="menu-title">Shop teamplate</h3>
+              <ul>
+                <li><a href="shop-grid-3col-left-sidebar.html">Shop grid 3 col LeftSidebar v1</a></li>
+              </ul>
+            </div>
+            <!-- .mega-item -->
+          </div>
+        </li>
+        <li>
+          <a href="#" title="">Blog</a>
+          <ul class="sub-menu">
+            <li><a href="blog-v4.html">Blog version 4</a></li>
+          </ul>
+        </li>
+        <li><a href="#" title="">Contact US</a></li>
+        <li><a href="#" title="">Buy theme</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- main menu -->
 </header>
