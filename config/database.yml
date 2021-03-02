@@ -49,5 +49,5 @@ test:
 production:
   <<: *default
   database: BeautyApp_production
-  username: BeautyApp
+  username: root
   password: <%= ENV['BEAUTYAPP_DATABASE_PASSWORD'] %>
