@@ -1,38 +1,38 @@
 @charset "UTF-8";
-/* ################################################################# 
+/* #################################################################
     1. Bootstrap
     2. Var
     3.Mixins
-			3.1 Clearfix 
-			3.2 Border-radius 
-			3.3 Size 
-			3.4 Help	
+			3.1 Clearfix
+			3.2 Border-radius
+			3.3 Size
+			3.4 Help
 			3.5 Function
 			3.6 Functions
 			3.7 Rtl
-			3.8 Template-mixins	
-    
+			3.8 Template-mixins
+
     4.Base
     5.Element
             5.1 Deal
-			5.2 Slideshow  
-			5.3. Tabs 
+			5.2 Slideshow
+			5.3. Tabs
 			5.4 Home-banner-img
 			5.5 Testimonial
 			5.6 Brand
-			5.7 Promotion 
+			5.7 Promotion
 			5.8 Collection
 			5.9 Carousel-product
 			5.10 Lattest-blog
 			5.11 New-sale-rate
 			5.12 Minicart
-			5.13 Parallax 
+			5.13 Parallax
 	6.Theme
-			6.1 Reset  
+			6.1 Reset
 			6.2 Grid-layout
-			6.3 Base  
-			6.4 Header 
-			6.5 Main-content 
+			6.3 Base
+			6.4 Header
+			6.5 Main-content
 			6.6 Footer
 			6.7 Sidebar
 			6.8 Wishlist-page
@@ -44,12 +44,12 @@
 			6.14 Faq
 			6.15 Popup
             6.16 Menu-version
-    7.Ecommerce 
+    7.Ecommerce
 			7.1 Product-item
 			7.2 Product-detail
 			7.3 Checkout
-			7.4 Cart 
-    
+			7.4 Cart
+
 ################################################################# */
 /*1. Bootstrap*/
 /*!Bootstrap v3.3.6 (http://getbootstrap.com)*/
@@ -9246,7 +9246,7 @@ website:   	http://www.engocreative.com
 /*3.6 Functions*/
 /** elements mixins **/
 /**
-* Transition-timing-function property@mixin 
+* Transition-timing-function property@mixin
 */
 /*background RGBA
 ============================================*/
@@ -9282,7 +9282,7 @@ website:   	http://www.engocreative.com
 /****/
 /** elements mixins **/
 /**
-* Transition-timing-function property@mixin 
+* Transition-timing-function property@mixin
 */
 /*background RGBA
 ============================================*/
@@ -12889,7 +12889,7 @@ main .main-slider .tp-caption.rv-button.btn-white.btn-outline:hover {
 }
 
 .bg-mth:before {
-  background: url(../images/assets/dot.gif) !important;
+  /*background: url(../images/assets/dot.gif) !important;*/
   opacity: 0.1;
   content: "" !important;
   left: 0;
@@ -23149,7 +23149,7 @@ website:   	http://www.engocreative.com
 .product-item .product-info .actions .action.add-to-cart a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #171717 url("../images/cart-icon.png") no-repeat scroll center center;
+  /*background: #171717 url("../images/cart-icon.png") no-repeat scroll center center;*/
 }
 
 .product-item .product-info .actions .action.add-to-cart a:hover {
@@ -23171,7 +23171,7 @@ website:   	http://www.engocreative.com
 .product-item .product-info .actions .action.add-to-wishlist a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #171717 url("../images/icons/wishlist.svg") no-repeat scroll center center;
+  /*background: #171717 url("../images/icons/wishlist.svg") no-repeat scroll center center;*/
 }
 
 .product-item .product-info .actions .action.add-to-wishlist a:hover {
@@ -23193,7 +23193,7 @@ website:   	http://www.engocreative.com
 .product-item .product-info .actions .action.add-to-quickview a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #171717 url("../images/icons/quickview.svg") no-repeat scroll center center;
+  /*background: #171717 url("../images/icons/quickview.svg") no-repeat scroll center center;*/
 }
 
 .product-item .product-info .actions .action.add-to-quickview a:hover {
